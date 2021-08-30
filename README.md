@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Pizza site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##### Author: Narandaev Damir
 
-## Available Scripts
+### Main page
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/89794034/131397710-343c0919-0d4a-4464-9fe2-eecd9e237280.png)
 
-### `yarn start`
+### Empty cart
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![image](https://user-images.githubusercontent.com/89794034/131397641-e756b7d5-b7e1-469f-8d1d-3e61a47d5871.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Unempty cart
 
-### `yarn test`
+![image](https://user-images.githubusercontent.com/89794034/131398570-38ca5615-5503-4395-b10c-60611f4332ad.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+____
 
-### `yarn build`
+##### Functional:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+__At this app you can use dough's type of pizza and price will change instanly.__
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/89794034/131398291-58808e4b-8cb3-45a4-b47b-ddc80586ff31.png)
+![image](https://user-images.githubusercontent.com/89794034/131398305-d86233bf-2b1b-4ff8-b112-318ab2393388.png)
+![image](https://user-images.githubusercontent.com/89794034/131398320-99e7bc2b-628c-4777-b6a4-6f33fe61d6c5.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+__Each type of pizza will be added to the cart with own price.__
 
-### `yarn eject`
+![image](https://user-images.githubusercontent.com/89794034/131398791-da4b1c03-d0f3-44c0-b665-a4afaf82834d.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+__All buttons is working except "PAY" button.__
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Let's start with buttons from __main page__
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
