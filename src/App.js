@@ -5,7 +5,7 @@ import './App.css';
 
 // Libraries
 import 'bootstrap';
-import {Switch, Route} from 'react-router-dom'
+import { Switch, Route } from 'react-router-dom'
 
 // Components
 import {Container} from 'react-bootstrap';
