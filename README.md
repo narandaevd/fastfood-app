@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# Pizza site
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+##### Author: Narandaev Damir
 
-## Available Scripts
+### Main page
 
-In the project directory, you can run:
+![image](https://user-images.githubusercontent.com/89794034/131397710-343c0919-0d4a-4464-9fe2-eecd9e237280.png)
 
-### `yarn start`
+### Empty cart
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![image](https://user-images.githubusercontent.com/89794034/131397641-e756b7d5-b7e1-469f-8d1d-3e61a47d5871.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Unempty cart
 
-### `yarn test`
+![image](https://user-images.githubusercontent.com/89794034/131398570-38ca5615-5503-4395-b10c-60611f4332ad.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+____
 
-### `yarn build`
+## Functional:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+__At this app you can use dough's type of pizza and price will change instanly.__
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![image](https://user-images.githubusercontent.com/89794034/131398291-58808e4b-8cb3-45a4-b47b-ddc80586ff31.png)
+![image](https://user-images.githubusercontent.com/89794034/131398305-d86233bf-2b1b-4ff8-b112-318ab2393388.png)
+![image](https://user-images.githubusercontent.com/89794034/131398320-99e7bc2b-628c-4777-b6a4-6f33fe61d6c5.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+__Each type of pizza will be added to the cart with own price.__
 
-### `yarn eject`
+![image](https://user-images.githubusercontent.com/89794034/131398791-da4b1c03-d0f3-44c0-b665-a4afaf82834d.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+__All buttons is working except "PAY" button.__
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Let's start with buttons from __main page__
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+![Screenshot_1](https://user-images.githubusercontent.com/89794034/131400032-70611075-7b5e-4fa2-97a6-e96461c55ff0.png)
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. First button can __redirect user to "cart" page__ (without loading a page).
+2. Second one provides __first type of sort by type of pizza's content.__
+3. By using third button user can sort products by __alphabet, popularity, price__.
+4. Fourth button is a settings panel. By using this panel user is able to __choose the type of pizza's dough and size__ when ordering.
+5. Finally, fifth button __adding product to cart.__
 
-## Learn More
+____
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+All right, let's check on buttons on __cart page__
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![Screenshot_1](https://user-images.githubusercontent.com/89794034/131401987-02437673-eb12-42ca-aa6d-fdf5fc803f47.png)
 
-### Code Splitting
+1. First link is redirecting user to the __main page.__
+2. Second button is able to __clean all cart.__
+3. Third one is __deleting all items of choosed type of pizza.__
+4. Fourth group of button can __increment and decrement count__ of pizza.
+5. Fifth button making same function like first link.
+6. This button isn't working __("PAY" button)__.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+____
+![image](https://user-images.githubusercontent.com/89794034/131402596-0928ee32-66e5-401c-b07a-a0defd541a69.png)
+![image](https://user-images.githubusercontent.com/89794034/131402703-a59bc79c-a706-444b-b2e4-d49a72b2c0a5.png)
+____
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This panels is counting all items and their total price.
